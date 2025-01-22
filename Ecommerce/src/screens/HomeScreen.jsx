@@ -1,5 +1,6 @@
 import { Row, Col } from 'react-bootstrap'
 import Product from '../components/Product'
+import { Outlet } from 'react-router-dom'
 import product from '../products'
 
 function HomeScreen() {
