@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 
 import './App.css'
+import HomeScreen from './screens/HomeScreen'
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
       <Header />
       <main>
         <Container className='py-3'>
-          <h1>Welcomer To Proshop</h1>
+          <HomeScreen />
         </Container>
       </main>
       <Footer />
