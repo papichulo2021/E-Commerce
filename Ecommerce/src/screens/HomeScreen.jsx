@@ -9,7 +9,7 @@ function HomeScreen() {
         <h1>Latest Products</h1>
         <Row>
             {product.map((item) => (
-                <Col key={item._id} sm={12} md={6} lg={4} xl={4} >
+                <Col key={item._id} sm={12} md={6} lg={4} xl={3} >
                     <Product product={item}/>
                 </Col>
             ))}
